@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+::-webkit-scrollbar-thumb{
+  background-color: #5b331d;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color: #5b331dc4;
+}
+
+::-webkit-scrollbar{
+  width: 15px;
+}
+
+::selection{
+  background-color:#ffdc32;
+}
+  
+body{
+  font-family: "Walter Turncoat", cursive;
+  background-color: #f5eac987;
+}
+  
+.container{
+  margin: 0 80px;
+  background-color: #f5eac9;
+}
+
+.header img{
+  width: 100%;
+  height: 300px;
+}
+
+.header .layer{
+  align-items: center;
+  background-color: #00000059;
+  width: 88.2%;
+  height: 300px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.layer h1{
+  color: white;
+  margin-bottom: 30px;
+  font-size: 46px;
+}
+
+.layer .box{
+  background-color: #f5eac98f;
+  display: flex;
+  padding: 20px;
+  gap: 41px;
+  border-color: black;
+  border-radius: 24px;
+  border: solid;
+  border-width: 1px;
+}
+
+.box .one,
+.box .two,
+.box .three{
+  display: flex;
+  gap: 8px;
+}
+
+.box i{
+  margin-top: 3px;
+  font-size: 21px;
+}
+
+.content{
+  padding: 15px 25px;
+}
+
+.content .sec{
+  margin-bottom: 20px;
+}
+
+.content h1{
+  text-decoration: underline;
+}
+
+
+.gallery img{
+  width: 23%;
+  border: 1px solid black;
+  border-radius: 14px;
+  box-shadow: 5px 5px #00000087;
+  transition: transform 0.2s ease;
+  height: 160px;
+}
+
+.gallery img:hover{
+  transform: scale(1.05);
+}
+
+.gallery .one{
+  display: flex;
+  gap: 22px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.site{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site .left{
+  display: flex;
+  justify-content: right;
+}
+
+.site .right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 43px;
+}
+
+.site img{
+  width: 65%;
+  box-shadow: 9px 9px #5b331dcc;
+  transition: box-shadow 0.5s ease;
+}
+
+.site img:hover,
+.site .button:hover{
+  box-shadow: 4px 4px #5b331dcc;
+}
+
+.site .button{
+  background-color: #5b331d;
+  padding: 11px 20px;
+  width: fit-content;
+  position: relative;
+  bottom: 0;
+  box-shadow: 9px 9px #00000087;
+  transition: box-shadow 0.5s ease;
+}
+
+
+.site .button a{
+  color: #ffdc32;
+  text-decoration: none;
+}

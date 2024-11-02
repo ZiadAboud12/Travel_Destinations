@@ -1,0 +1,87 @@
+body {
+    background: #f5eac987;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Walter Turncoat", cursive;
+    color: black;
+}
+
+h1 {
+    font-size: 60px;
+    margin-top: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.content:hover {
+    transform: translateY(-5px);
+}
+
+.content p {
+    font-size: 24px; 
+    width: 45%;
+    text-align: left;
+    margin: 0;
+    margin-left: 20px;
+}
+
+.content img {
+    width: 400px; 
+    height: auto; 
+    object-fit: cover; 
+    margin-left: auto;
+    margin-right: 70px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.content img:hover {
+    transform: scale(1.05); 
+}
+
+.video-section {
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.video-section h3 {
+    font-size: 40px;
+    margin: 0 0 10px;            
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column; 
+    }
+    .content p, .content img {
+        width: 90%; 
+        margin: 10px auto; 
+    }
+}
+.container{
+    margin: 0 80px;
+    background-color: #f5eac9;
+    padding: 25px;
+}

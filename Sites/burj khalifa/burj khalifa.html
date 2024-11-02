@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Walter+Turncoat&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Burj Khalifa</title>
+    <style>
+                body {
+            background: #f5eac987;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-family: "Walter Turncoat", cursive;
+            color: black;
+        }
+
+        h1 {
+            font-size: 60px;
+            margin-top: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+            text-decoration: underline;
+        }
+
+        h2 {
+            font-size: 40px;
+            margin-left: 20px;
+            margin-top: 70px;
+            margin-bottom: 20px;
+            text-align: left;
+            text-decoration: underline;
+        }
+
+        .content {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease;
+        }
+
+        .content:hover {
+            transform: translateY(-5px);
+        }
+
+        .content p {
+            font-size: 24px; 
+            width: 45%;
+            text-align: left;
+            margin: 0;
+            margin-left: 20px;
+        }
+
+        .content img {
+            width: 400px; 
+            height: auto; 
+            object-fit: cover; 
+            margin-left: auto;
+            margin-right: 70px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .content img:hover {
+            transform: scale(1.05); 
+        }
+
+        .video-section {
+            text-align: center;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .video-section h3 {
+            font-size: 40px;
+            margin: 0 0 10px;            
+        }
+
+        @media (max-width: 768px) {
+            .content {
+                flex-direction: column; 
+            }
+            .content p, .content img {
+                width: 90%; 
+                margin: 10px auto; 
+            }
+        }
+        .container{
+            margin: 0 80px;
+            background-color: #f5eac9;
+            padding: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Main title -->
+    <h1>Burj khalifa</h1>
+
+    <!-- Side title -->
+    <h2>History of Burj khalifa</h2>
+
+    <!-- Content paragraphs and images -->
+    <div class="content">
+        <p>
+            The Burj Khalifa, standing at an impressive 828 meters (2,717 feet), is the tallest structure in the world and a symbol of 
+            Dubai's ambition and innovation. Completed in 2012, the tower has redefined the Dubai skyline and attracts millions of 
+            visitors each year. Designed by the architecture firm Skidmore, Owings & Merrill, its sleek, tapered form draws inspiration 
+            from Islamic architecture, making it both a modern marvel and a respectful nod to traditional design. This engineering feat 
+            required advanced construction techniques and over 12,000 workers, showcasing Dubai’s commitment to breaking boundaries.</p>
+        <img src="imgs/burj1.jpg" alt="">
+    </div>
+    <div class="content">
+        <p>The Burj Khalifa houses a wide range of spaces, including luxury residences, corporate suites, and the Armani Hotel, making 
+            it a self-contained vertical city. Its interiors are meticulously designed, featuring premium materials such as polished 
+            stone, stainless steel, and Venetian stucco. Visitors can enjoy fine dining in the “At.mosphere” restaurant on the 122nd 
+            floor or relax in beautifully designed lounges and observation decks. The “At the Top” observation deck on the 148th floor 
+            offers panoramic views of Dubai and the surrounding desert, providing a unique perspective of the city's rapid expansion.</p>
+        <img src="imgs/burj2.webp" alt="">
+    </div>
+    <div class="content">
+        <p>The tower has become an iconic landmark and a top tourist attraction, not just for its height but for its role in redefining 
+            urban architecture. With its choreographed LED lighting shows, the Burj Khalifa often lights up in celebration of global 
+            events and holidays, drawing crowds and social media attention worldwide. The Burj Khalifa’s influence extends beyond 
+            architecture, symbolizing Dubai’s transformation into a global center of luxury, business, and innovation, making it a 
+            must see for anyone visiting the UAE.</p>
+        <img src="imgs/burj3.jpg" alt="">
+    </div>
+
+    <!-- Video section -->
+    <div class="video-section">
+        <h3>Tour Video</h3>
+        <iframe width="100%" height="514" src="https://www.youtube.com/embed/lflCmjW7RlI" 
+        title="BURJ KHALIFA, world&#39;s tallest tower | Tour &amp; view from the top (Dubai)" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    </div>
+</body>
+</html>

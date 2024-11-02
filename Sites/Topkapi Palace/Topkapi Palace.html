@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Topkapi Palace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Walter+Turncoat&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        /* Setting the background color and font */
+        body {
+            background: #f5eac987;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-family: "Walter Turncoat", cursive;
+            color: black;
+        }
+
+        /* Styling for the main title */
+        h1 {
+            font-size: 60px;
+            margin-top: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+            text-decoration: underline;
+        }
+
+        /* Styling for the side title */
+        h2 {
+            font-size: 40px;
+            margin-left: 20px;
+            margin-top: 70px;
+            margin-bottom: 20px;
+            text-align: left;
+            text-decoration: underline;
+        }
+
+        /* Styling for paragraphs and images */
+        .content {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease;
+        }
+
+        .content:hover {
+            transform: translateY(-5px); /* Elevate the card on hover */
+        }
+
+        .content p {
+            font-size: 24px; /* Increased font size to 24px */
+            width: 45%;
+            text-align: left;
+            margin: 0;
+            margin-left: 20px;
+        }
+
+        .content img {
+            width: 400px; /* Wider images */
+            height: auto; /* Maintain aspect ratio */
+            object-fit: cover; /* Maintain aspect ratio */
+            margin-left: auto;
+            margin-right: 70px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .content img:hover {
+            transform: scale(1.05); /* Zoom on hover */
+        }
+
+        /* Styling for the video section */
+        .video-section {
+            text-align: center;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .video-section h3 {
+            font-size: 40px;
+            margin: 0 0 10px;            
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .content {
+                flex-direction: column; /* Stack content vertically */
+            }
+            .content p, .content img {
+                width: 90%; /* Full width on smaller screens */
+                margin: 10px auto; /* Center images and paragraphs */
+            }
+        }
+        .container{
+            margin: 0 80px;
+            background-color: #f5eac9;
+            padding: 25px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+            <!-- Main title -->
+        <h1>The Topkapi Palace</h1>
+
+        <!-- Side title -->
+        <h2>History of Topkapi Palace</h2>
+
+        <!-- Content paragraphs and images -->
+        <div class="content">
+            <p>The Topkapi Palace, located in Istanbul, Turkey, is a historic royal residence that served as the home of Ottoman sultans for over 400 years, from the 15th to the 19th centuries.</p>
+            <img src="img/img1.1.jpg" alt="Image 1">
+        </div>
+        <div class="content">
+            <p>Constructed in 1459, the palace complex features stunning courtyards, gardens, and ornate architecture, showcasing the grandeur of the Ottoman Empire. It houses important artefacts, including the Imperial Harem, religious relics, and the famous Topkapi Dagger.</p>
+            <img src="img/img2.jpg" alt="Image 2">
+        </div>
+        <div class="content">
+            <p>Today, the Topkapi Palace is a museum, offering visitors a glimpse into the opulent lifestyle of the sultans and the rich history of the Ottoman Empire.</p>
+            <img src="img/img3.jpg" alt="Image 3">
+        </div>
+
+        <!-- Video section -->
+        <div class="video-section">
+            <h3>Tour Video</h3>
+            <iframe width="100%" height="515" src="https://www.youtube.com/embed/dwqZK7qpdkY?autoplay=1&mute=1"
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+
+        </div>
+    </div>
+</body>
+</html>
